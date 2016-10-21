@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3943999674">
+    <data-source source="LOCAL" name="SQL Server (Microsoft) - INTERN@EGRB-VMDB-T04" uuid="98322ae3-fb39-4363-a6b7-18527b1c12d9">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://EGRB-VMDB-T04;databaseName=INTERN</jdbc-url>
+    </data-source>
+  </component>
+</project>

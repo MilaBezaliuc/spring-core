@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="sweet_spring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spring-core-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sweet_spring:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqljdbc4-4.0.2206.100.jar" />
+          <element id="library" level="project" name="Hibernate 5.2.3-5.2.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
